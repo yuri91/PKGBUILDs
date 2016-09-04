@@ -10,7 +10,7 @@ license=('GPL')
 depends=("python2")
 provides=("python2-llvmlite")
 conflicts=("python2-llvmlite")
-source=("https://anaconda.org/numba/llvmlite/0.11.0/download/linux-64/llvmlite-$pkgver-py27_0.tar.bz2")
+source=("https://anaconda.org/numba/llvmlite/$pkgver/download/linux-64/llvmlite-$pkgver-py27_0.tar.bz2")
 md5sums=('43ec2aaae1b5deef2039ab951320806a')
 
 package() {

@@ -11,7 +11,7 @@ groups=()
 depends=("python")
 provides=("python-llvmlite")
 conflicts=("python-llvmlite")
-source=("https://anaconda.org/numba/llvmlite/0.11.0/download/linux-64/llvmlite-$pkgver-py35_0.tar.bz2")
+source=("https://anaconda.org/numba/llvmlite/$pkgver/download/linux-64/llvmlite-$pkgver-py35_0.tar.bz2")
 md5sums=('27e16301d127831def3b3360872db7b8')
 
 package() {
